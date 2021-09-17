@@ -1,0 +1,450 @@
+body {
+    font-family: arial;
+    font-size: 12px;
+    color: #1e5474;
+    background: #f7f7f7;
+    margin: 0;
+}
+
+#container {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#header {
+    margin-top: 20px;
+}
+
+#menu {
+    background: rgb(0, 0, 158);
+    overflow: hidden;
+    color: white;
+    padding: 10px 5px;
+}
+
+
+
+#user a {
+    color: white;
+    text-decoration: none;
+    margin-top: -5px ;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+#button-cart {
+    float: right;
+    margin-top: 5px;
+    background: orange;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+#button-cart img {
+    display: inline-block;
+    margin-top: 5px;
+
+}
+
+#content {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+#footer {
+    background: rgb(0, 0, 158);
+    padding: 10px;
+}
+
+#footer p {
+    text-align: right;
+    color: white;
+    font-size: 10px;
+    font-style: italic;
+    margin: 0;
+}
+
+#content-user-akses {
+    width: 350px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.element-form {
+    margin-bottom: 15px;
+}
+
+.element-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.element-form span {
+    display: block;
+}
+
+.element-form span input[type="text"],
+.element-form span input[type="password"],
+.element-form span textarea,
+.element-form span select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.element-form span input[type="submit"] {
+    background: blue;
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.element-form span input[type="submit"]:hover {
+    background: orange;
+}
+
+#menu-profile {
+    float: left;
+    width: 250px;
+    background: rgb(0, 0, 158);
+}
+
+#menu-profile ul {
+    list-style: none;
+    padding: 0;
+    padding: 0;
+}
+
+#menu-profile ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#menu-profile ul li a:hover,
+#menu-profile ul li a.active {
+    background: orange;
+}
+
+
+#profile-content {
+    float: left;
+    width: 830px;
+    padding: 10px;
+    background: white;
+}
+
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.baris-title {
+    background: rgb(190, 190, 190);
+}
+
+.baris-title th,
+.baris-title td {
+    padding: 10px 7px;
+}
+
+.kolom-nomor {
+    width: 20px;
+    text-align: center;
+}
+
+.kiri {
+    text-align: left;
+} 
+
+.tengah {
+    text-align: center;
+}
+
+#frame-tambah {
+    margin-bottom: 10px;
+    text-align: right;
+    height: 50px;
+}
+
+.tombol-action {
+    background: rgb(0, 0, 158);
+    color: white;
+    padding: 7px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-right: 3px;
+    font-size: 9px;
+}
+
+
+.tombol-action:hover {
+    background: orange;
+}
+
+.gambar {
+    width: 500px;
+    vertical-align:middle;
+}
+
+
+#kiri {
+    width: 245px;
+    height: auto;
+    float: left;
+}
+
+#kiri ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#kiri ul li {
+    margin-bottom: 10px;
+}
+
+#kiri ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background-color: white;
+    color: blue;
+}
+
+#kiri ul li a:hover {
+    background: #cfcfcf;
+}
+
+.kanan {
+    float: left;
+    width: 840px;
+    height: auto;
+    margin-left: 15px;
+}
+
+.kanan ul {
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+
+.kanan ul li {
+    width: 240px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    float: left;
+    margin-right: 5px;
+    background: white;
+}
+
+.kanan ul li .price {
+    font-size: 15px;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.kanan ul li a img {
+    display: block;
+    width: 250px;
+}
+
+.keterangan-gambar {
+    padding: 10px 0;
+    border-top: 1px solid rgb(194, 194, 194);
+    border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.keterangan-gambar p {
+    margin: 5px 8px;
+    text-align: center;
+}
+
+.keterangan-gambar a {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.keterangan-gambar span {
+    display: bloack;
+    text-align: center;
+}
+
+.add-cart {
+    text-align: center;
+}
+
+.add-cart a {
+    text-decoration: none;
+    background: blue;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.add-cart a:hover {
+    background: orange;
+}
+
+.detail-barang {
+    background:white;
+    padding:15px;
+    border-radius:5px;
+}
+
+.frame-barang {
+    background-color: rgba(226, 225, 225, 0.473);
+    margin: 0;
+}
+
+.detail-img {
+    margin: 10px auto;
+    display: block;
+}
+
+.harga {
+    color: red;
+    font-size: 15px;
+}
+
+.card a {
+    background-color: blue;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.frame-harga {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.total {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+
+.update-jumlah {
+    text-align: center;
+    width: 30px;
+}
+
+.keranjang-list {
+    border-bottom: 1px solid rgb(0, 0, 94);
+}
+
+#frame-button-keranjang {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lanjut-belanja, #lanjut-pemesanan {
+    background-color: #1e5474;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.sub-total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sub-total p {
+    margin-left: 50px;
+}
+
+.frame-data-pengiriman {
+    float: left;
+    width: 250px;
+}
+
+.frame-data-detail {
+    float: left;
+    width: 820px;
+    margin-left: 20px;
+}
+
+.satu, .tiga {
+    width: 300px;
+    text-align: center;
+    border-bottom: 1px solid blue;
+}
+
+.dua {
+    width: 2200px;
+    text-align: center;
+    border-bottom: 1px solid blue;
+}
+
+.div {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div b {
+    margin-left: 40px;
+}
+
+.list-pesanan {
+    text-align: center;
+}
+
+.detail {
+    display: flex;
+    flex-direction: flex-end;
+}
+
+.pagenation {
+    list-style: none;
+    display: flex;
+}
+
+
+
+.page {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    padding: 7px 10px;
+    margin: 10px;
+}
+
+.page:hover {
+    color: white;
+    background-color: orange;
+}
+
+#frame-tambah .right {
+
+    float: right;
+}
+
+#frame-tambah .left {
+
+    float: left;
+}
+
+.pasword {
+    display: flex;
+    justify-content: space-between;
+}
